@@ -137,6 +137,7 @@ pca_fig.update_layout(title_x=0.5, height=500)
 
 # Initialize Dash app
 app = dash.Dash(__name__)
+server = app.server()
 
 # CSS to prevent scrolling and stabilize layout
 app.layout = html.Div([
