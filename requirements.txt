@@ -122,3 +122,7 @@ webencodings==0.5.1
 websocket-client==1.8.0
 gunicorn==21.2.0
 pykrige==1.7.1
+numpy==1.26.4
+scipy==1.13.0
+matplotlib==3.8.4
+setuptools>=60.0
